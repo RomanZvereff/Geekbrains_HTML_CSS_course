@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue:300,300i,400,400i,700,700i&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Comic Neue', cursive;
+	background-color: #f8f8f8;
+}
+
+nav.navbar-menu {
+	position: fixed;
+	display: flex;
+	height: 56px;
+	background-color: #CEAC56;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+nav.navbar-menu ul li {
+	display: inline-flex;
+	list-style-type: none;
+}
+
+nav.navbar-menu ul li {
+	display: inline-flex;
+	list-style-type: none;
+}
+
+nav.navbar-menu ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.2rem;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-weight: 700;
+	color: #243949;
+}
+
+nav.navbar-menu ul li a:hover {
+	color: #517FA4;
+	transform: scale(1.1);
+	text-shadow: 1px 1px 0 #000;
+}
+
+.index_header {
+	display: flex;
+	height: 100vh;
+	background-image: url('https://i1.adis.ws/i/hibbett/store0594-04-shoes?w=820&h=460&sm=S');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main_container h1 {
+	font-size: 8rem;
+	color: #FFF;
+	text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+.main_container p {
+	font-size: 2rem;
+	color: #517FA4;
+	background-color: #f8f8f8;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 15px;
+}
+
+.main_container h1 span {
+	color: #CEAC56;
+}
+
+.footer {
+	display: flex;
+	height: 36px;
+	background-color: #517FA4;
+	align-items: center;
+	justify-content: center;	
+}
+
+/*Contacts*/
+#contacts-box {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.contact-form {
+	margin-top: 6rem;
+}
+
+.contact-map {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.contact-map p {
+	font-size: 2rem;
+	text-align: center;
+	color: 
+}
+
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
+.contact-form .contact-form {
+	max-width: 576px;
+	margin: auto;
+}
+
+input[type=text],
+input[type=email], 
+select, 
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.catalog-header {
+	margin-top: 56px;
+	text-align: center;
+}
+
+.catalog-box {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	justify-content: space-around;
+}
+
+.product-page {
+	display: flex;
+	flex-direction: column;
+	margin: 56px 15px 0px 15px;
+}
+
+.prod-content h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.prod-content h3 {
+	font-size: 18px;
+	font-weight: 400;	
+	text-align: center;
+	background-color: #eaeaea;
+}
+
+.prod-content .short-description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.prod-content .description {
+	color:  #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.prod-content ul {
+	margin-left: 1.5rem;
+}
+
+.prod-content ul li{
+	list-style-type: kannada;
+}
+
+.prod-content p:last-child{
+	margin-top: 1.5rem;
+}
