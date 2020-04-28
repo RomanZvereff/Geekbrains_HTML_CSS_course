@@ -7,89 +7,266 @@
 	<meta name="keywords" content="games, historical games, online games, pc games">
 	<meta name="description" content="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Load icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body id="top-page">
 	<div class="header-wrapper">
-		<!-- TOP HEADER -->
+<!-- TOP HEADER -->
 		<header class="top-header">
-			<div class="container flex-container">
-				<div class="top-header-wrap">
-					<div class="top-header_logo">
-						<span class="top-header__logo-item-first">Historical</span><br>
-						<p class="top-header__logo-item-second">GAMES</p>
-					</div>
-					<div class="top-header_phone">
-						<img src="./img/top-header__phone-item.png">
-						<span class="top-header__phone-item">+123 456 789</span>
-					</div>
-					<div class="top-header_email">
-						<img src="./img/top-header__email-item.png">
-						<span class="top-header__email-item">info@example.com</span>
-					</div>
-					<div class="top-header_search">
-						<input type="text" name="site-search" placeholder="Search">
-						<img src="./img/top-header__search-item.png">
+			<div class="top-header-info">
+				<div class="container flex-container">
+					<div class="row top-header-wrap">
+						<div class="col-12 col-sm-4 col-md-3 top-header_logo">
+							<span class="top-header__logo-item-first">Historical</span><br>
+							<p class="top-header__logo-item-second">GAMES</p>
+						</div>
+						<div class="col-12 col-sm-4 col-md-3 top-header_phone">
+							<img src="./img/top-header__phone-item.png">
+							<span class="top-header__phone-item">+123 456 789</span>
+						</div>
+						<div class="col-12 col-sm-4 col-md-3 top-header_email">
+							<img src="./img/top-header__email-item.png">
+							<span class="top-header__email-item">info@example.com</span>
+						</div>
+						<div class="col-12 col-md-3 top-header_search">
+
+							<form class="search" action="/action_page.php" style="margin:auto;max-width:300px">
+								  <input type="text" placeholder="Search" name="search">
+								  <button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
+			
+<!-- NAVIGATION -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-light text-center" id="mainNav">
+				<a class="navbar-brand" href="#"></a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  	</button>
+				 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#top-page">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#news">News</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link js-scroll-trigger" href="#contact-us">Contact Us</a>
+				      </li>
+				    </ul>
+				</div>
+			</nav>
 		</header>
-		<!-- NAVIGATION -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  	</button>
-			 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-			    <ul class="navbar-nav">
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">About</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Services</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Gallery</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">News</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Team</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact Us</a>
-			      </li>
-			    </ul>
-			</div>
-		</nav>
-		<!-- MAIN HEADER CONTENT -->
+		
+<!-- MAIN HEADER CONTENT -->
 		<section class="masthead">
-			<div class="container">
+			<div class="container masthead_header">
 				<div class="row">
 					<div class="col-12 header-prev">
 						<p>Nunc eget nibh</p>
+						<hr class="divider my-1">
 					</div>
 					<div class="col-12 header-text">
 						<p>Morbi in nisl auctor</p>
 					</div>
 					<div class="col-12 social-btn">
-						<img src="./img/facebook-logo.png">
-						<img src="./img/twitter-logo-silhouette.png">
-						<img src="./img/rss-feed-suscription-button-symbol-for-interface.png">
-						<img src="./img/vk-social-network-logo.png">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
+
+<!-- ABOUT US -->
+	<section id="about">
+		<div class="about-wrapper">
+			<div class="container about-container d-flex align-items-center">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2 class="about">About Us!</h2>
+						<p class="about_text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+						<p class="about_text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+					</div>
+					<div class="col-12 col-md-6 my-auto">
+						<img src="./img/1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SERVICES -->
+	<section id="services">
+		<div class="services-wrapper">
+			<div class="container services-container d-flex align-items-center">
+				<div class="row">
+					<div class="col-12">
+						<h2>Services</h2>
+					</div>
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-right"><a class="text-link" href="#">Repreh Qui In Ea Voluptate</a></h3>
+						<p class="text-right">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-pagelines"></i></a>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-arrow-circle-up"></i></a>
+					</div>	
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-left"><a class="text-link" href="#">Voluptatibus Maiores Alias</a></h3>
+						<p class="text-left">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-right"><a class="text-link" href="#">Repreh Qui In Ea Voluptate</a></h3>
+						<p class="text-right">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-dollar"></i></a>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-home"></i></a>
+					</div>	
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-left"><a class="text-link" href="#">Voluptatibus Maiores Alias</a></h3>
+						<p class="text-left">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-right"><a class="text-link" href="#">Repreh Qui In Ea Voluptate</a></h3>
+						<p class="text-right">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-bar-chart"></i></a>
+					</div>
+					<div class="col-12 col-sm-4 col-md-2 my-auto btn-block">
+						<a href="#" class="btn-link mx-auto"><i class="fa fa-cog"></i></a>
+					</div>	
+					<div class="col-12 col-sm-8 col-md-4">
+						<h3 class="text-left"><a class="text-link" href="#">Voluptatibus Maiores Alias</a></h3>
+						<p class="text-left">Itaque earum rerum hic tenetur a sapiente delectus, ut aut 
+							reiciendis voluptatibus maiores alias consequatur aut 
+							perferendis doloribus asperiores repellat.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- GALLERY -->
+	<section id="gallery">
+		<dir class="gallery-wrapper">
+			<dir class="container gallery-container d-flex align-items-center">
+				<div class="row">
+					<div class="col-12">
+						<h2>Our Gallery</h2>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3 gallery-item">
+						<img src="./img/71Ivm50PP7L._SL1273_1024x1024@2x.png">
+						<p>Assasin’s Creed: Rogue</p>
+						<button type="button" class="btn btn-lg btn-block">Buy</button>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3  gallery-item">
+						<img src="./img/51K8FfZ39aL.png">
+						<p>Tomb Raider</p>
+						<button type="button" class="btn btn-lg btn-block">Buy</button>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3  gallery-item">
+						<img src="./img/fc0fe7ba3b8e092e2ae941b054852d47.png">
+						<p>Ryse: Son Of Rome</p>
+						<button type="button" class="btn btn-lg btn-block">Buy</button>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3  gallery-item">
+						<img src="./img/91fvOxYmFnL.png">
+						<p>World Of Warcraft: Wrath Of The Linch King</p>
+						<button type="button" class="btn btn-lg btn-block">Buy</button>
+					</div>
+				</div>
+			</dir>
+		</dir>
+	</section>
+
+<!-- CAROUSEL -->
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	  	<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      	<img src="./img/3.png" class="d-block w-100" alt="...">
+		      	<div class="carousel-caption">
+			        <h3>Testimonial</h3>
+			        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac pretium tellus eros a neque. Integer ipsum sem, 
+					consectetur a mollis ac, cursus eu ipsum.</p>
+			    </div>
+		    </div>
+	    	<div class="carousel-item">
+	      		<img src="./img/3.png" class="d-block w-100" alt="...">
+	      		<div class="carousel-caption">
+			        <h3>Testimonial</h3>
+			        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac pretium tellus eros a neque. Integer ipsum sem, 
+					consectetur a mollis ac, cursus eu ipsum.</p>
+			    </div>
+	    	</div>
+	    	<div class="carousel-item">
+	    	  	<img src="./img/3.png" class="d-block w-100" alt="...">
+	    	  	<div class="carousel-caption">
+			        <h3>Testimonial</h3>
+			        <p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim. Vestibulum ex lectus, posuere eu viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat congue justo, ac pretium tellus eros a neque. Integer ipsum sem, 
+					consectetur a mollis ac, cursus eu ipsum.</p>
+			    </div>
+	    	</div>
+	  	</div>
+	  	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+	   	 	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	   	 	<span class="sr-only">Previous</span>
+	  	</a>
+	 	 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+	  	  	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  	  	<span class="sr-only">Next</span>
+	  	</a>
+	</div>
+
+	<!-- Bootstrap core JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!-- Plugin JavaScript -->
+    <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+	<!-- Custom scripts for this template -->
+  	<script src="./js/javascript.js"></script>
 </body>
 </html>
